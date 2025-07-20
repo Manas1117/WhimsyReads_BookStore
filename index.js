@@ -16,10 +16,7 @@ const PORT = process.env.PORT || 4000
 const URI = process.env.MongoDBURI
 
 try {
-  mongoose.connect(URI ,{
-    useNewUrlParser : true,
-    useUnifiedTopology: true
-  })
+  mongoose.connect(URI)
   console.log("Connecting to MongoDb")
 } catch (error) {
   console.log("Error:",error)
