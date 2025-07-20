@@ -11,7 +11,8 @@ function Book() {
   useEffect(() => {
     const getBook = async()=>{
       try {
-       const res = await axios.get("https://whimsy-reads-book-store.vercel.app/book");
+      //  const res = await axios.get("https://whimsy-reads-book-store.vercel.app/book");
+      const res = await axios.get("http://localhost:4001/book");
        console.log(res.data);
        setBook(res.data);
       } catch (error) {
