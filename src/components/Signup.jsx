@@ -51,7 +51,7 @@ function Signup() {
               {/* if there is a button in form, it will close the modal */}
               <Link
                 to={"/"}
-                className="btn btn-xs btn-circle btn-ghost bg-pink-500 text-white hover:bg-pink-600 absolute right-2 top-2"
+                className="btn btn-xs btn-circle btn-ghost bg-gray-500 text-white hover:bg-gray-600 absolute right-2 top-2"
               >
                 ✕
               </Link>
